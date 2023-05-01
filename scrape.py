@@ -1,15 +1,14 @@
-# A simple script for use cased based scraping of paginated results. 
+# A simple script for use cased based scraping of paginated results.
 # Author: Tania Andersen and ChatGPT. tan .at. ing .dot. dk
 # Alpha version. License: The Unlicense.
 
 import getpass
 import os
 from typing import List
-from urllib.parse import urljoin, urlparse
-from playwright.sync_api import Playwright, sync_playwright, TimeoutError
+from urllib.parse import urljoin
+from playwright.sync_api import sync_playwright, Page
 import time
 from random import randint, uniform
-
 
 DETAIL_PAGES = 'detail_pages'
 
@@ -159,10 +158,11 @@ def scrape(
 
         browser.close()
 
+
 # An example:
 scrape(
     pagination_url_template='http://books.toscrape.com/catalogue/page-*.html',
     first_page=1,
-    last_page=5,
+    last_page=3,
     detail_url_selector='article > h3 > a'
 )
