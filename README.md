@@ -17,9 +17,20 @@ The `scrape` function is a utility function for scraping web pages using Playwri
 - `password_selector` (optional): A string that represents the CSS selector for the password field on the login page. Default is `None`.
 - `login_url` (optional): A string that represents the URL of the login page. Default is `None`.
 
-The function uses Playwright to launch a browser, navigate to the login page (if `username`, `username_selector`, `password_selector`, and `login_url` are provided), logs in (if `username` is provided), and then navigates to each page of the search results and extracts the URLs for the detail pages using the `detail_url_selector`.
+The function uses Playwright to launch a browser, navigate to the login page (if `username`, `username_selector`, `password_selector`, and `login_url` are provided), logs in (if `username` is provided), and then navigates to each page of the search results and extracts the URLs for the detail pages using the `detail_url_selector`. The detail pages are the downloaded to the folder detail_pages.
 
 ## Example
+
+A simple example:
+
+```python
+scrape(
+    pagination_url_template='http://books.toscrape.com/catalogue/page-*.html',
+    first_page=1,
+    last_page=5,
+    detail_url_selector='article > h3 > a'
+)
+```
 
 A full example:
 
@@ -46,16 +57,5 @@ scrape(
     username_selector=username_selector,
     password_selector=password_selector,
     login_url=login_url,
-)
-```
-
-A simple example:
-
-```python
-scrape(
-    pagination_url_template='http://books.toscrape.com/catalogue/page-*.html',
-    first_page=1,
-    last_page=5,
-    detail_url_selector='article > h3 > a'
 )
 ```
