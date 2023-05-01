@@ -150,9 +150,6 @@ def scrape(
         if username and username_selector and password_selector and login_url:
             _login(page, username_selector, password_selector, login_url, username, wait_for_login_interaction)
 
-        # Go to the first page of the search results
-        # page.goto(url)
-
         # Scrape the search result pages
         _scrape_pages(page, pagination_url_template, first_page, last_page, detail_url_selector)
 
