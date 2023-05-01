@@ -1,7 +1,7 @@
-# python-scraper
-A simple usecase based scraping script in Python with Playwright.
+# Python Scraper
+A simple usecase based scraping script in Python with Playwright. Alpha version. License: The Unlicense.
 
-ChatGPT wrote this documentation.
+ChatGPT wrote this documentation. It was fact-checked by a human.
 
 ## scrape Function
 
