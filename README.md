@@ -46,7 +46,8 @@ scrape(
     username_selector=username_selector,
     password_selector=password_selector,
     login_url=login_url,
-)```
+)
+```
 
 A simple example:
 
@@ -56,4 +57,5 @@ scrape(
     first_page=1,
     last_page=5,
     detail_url_selector='article > h3 > a'
-)```
+)
+```
