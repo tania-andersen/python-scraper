@@ -159,6 +159,7 @@ def scrape(
 
         browser.close()
 
+# An example:
 scrape(
     pagination_url_template='http://books.toscrape.com/catalogue/page-*.html',
     first_page=1,
