@@ -21,7 +21,10 @@ The function uses Playwright to launch a browser, navigate to the login page (if
 
 ## Example
 
-`from scrape import scrape
+A full example:
+
+```python
+from scrape import scrape
 
 pagination_url_template = "http://example.com/page-*"
 first_page = 1
@@ -43,4 +46,14 @@ scrape(
     username_selector=username_selector,
     password_selector=password_selector,
     login_url=login_url,
-)`
+)```
+
+A simple example:
+
+```python
+scrape(
+    pagination_url_template='http://books.toscrape.com/catalogue/page-*.html',
+    first_page=1,
+    last_page=5,
+    detail_url_selector='article > h3 > a'
+)```
