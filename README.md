@@ -13,7 +13,7 @@ The `scrape` function is a utility function for scraping web pages using Playwri
 - `first_page` (required): An integer that represents the number of the first page to be scraped.
 - `last_page` (required): An integer that represents the number of the last page to be scraped.
 - `detail_url_selector` (required): A string that represents the CSS selector for the links to the detail pages.
-- `wait_for_login_interaction` (optional): A boolean value that indicates whether the function should wait for a login interaction after the password submit, but before starting the scraping process, for submitting a 2fa code and such. Default is `False`.
+- `wait_for_login_interaction` (optional): A boolean value that indicates whether the function should wait for a login interaction after the password submit, but before starting the scraping process, for submitting a 2FA code and such. Default is `False`.
 - `username` (optional): A string that represents the username to be used for login. Default is `None`.
 - `username_selector` (optional): A string that represents the CSS selector for the username field on the login page. Default is `None`.
 - `password_selector` (optional): A string that represents the CSS selector for the password field on the login page. Default is `None`.
