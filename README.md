@@ -34,12 +34,12 @@ scrape(
 )
 ```
 
-A full example:
+A full (fictitious) example:
 
 ```python
 from scrape import scrape
 
-pagination_url_template = "http://example.com/page-*"
+pagination_url_template = "http://example.com/search/?q=cake%20%recipes&page=*"
 first_page = 1
 last_page = 5
 detail_url_selector = "a.detail-link"
