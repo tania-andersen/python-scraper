@@ -3,7 +3,7 @@ A simple use case based scraping script for paginated result pages with links to
 
 ChatGPT wrote this documentation. It was fact-checked, amended and edited by a human.
 
-The code is the result of this Version2 article about programming with ChatGPT: https://www.version2.dk/node/6987801 (In Danish, requires login.)
+The code is the result of this Version2 article about programming with ChatGPT: https://www.version2.dk/node/6987801 (In Danish, requires login, perhaps not published yet.)
 
 ## scrape Function
 
