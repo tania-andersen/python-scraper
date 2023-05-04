@@ -1,5 +1,5 @@
 # Paginated Python Scraper
-A simple usecase based scraping script for paginated result pages with links to detail pages. Written in Python with Playwright. Individual code lines and small functions are mostly written by ChatGPT. Not really tested. Alpha version. License: The Unlicense.
+A simple usecase based scraping script for paginated result pages with links to detail pages. Written in Python with Playwright. Individual code lines and small functions are mostly written by ChatGPT. Superficially tested. Alpha version. License: The Unlicense.
 
 ChatGPT wrote this documentation. It was fact-checked, amended and edited by a human.
 
