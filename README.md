@@ -21,7 +21,7 @@ The function uses Playwright to launch a browser, navigate to the login page (if
 
 ## Example
 
-A simple example:
+A simple (working, real world) example:
 
 ```python
 scrape(
