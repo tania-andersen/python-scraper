@@ -108,7 +108,7 @@ def _scrape_pages(
 
 
 def _random_sleep(page: Page) -> None:
-    # Wait for a random amount of time between 2 and 6 seconds
+    # Wait for a long random amount of time
     time.sleep(uniform(10, 20))
 
     # Get the page viewport size
