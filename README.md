@@ -1,5 +1,5 @@
 # Python Scraper
-A simple usecase based scraping script in Python with Playwright. Alpha version. License: The Unlicense.
+A simple usecase based scraping script for paginated result pages with links to detail pages. Written in Python with Playwright. Alpha version. License: The Unlicense.
 
 ChatGPT wrote this documentation. It was fact-checked and edited by a human.
 
