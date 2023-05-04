@@ -3,6 +3,8 @@ A simple usecase based scraping script for paginated result pages with links to 
 
 ChatGPT wrote this documentation. It was fact-checked, amended and edited by a human.
 
+The code is the result of this Version2 article: https://www.version2.dk/node/6987801 (In Danish, requires login.)
+
 ## scrape Function
 
 The `scrape` function is a utility function for scraping web pages using Playwright. It takes the following parameters:
