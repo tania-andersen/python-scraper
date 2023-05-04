@@ -21,6 +21,8 @@ The `scrape` function is a utility function for scraping web pages using Playwri
 
 The function uses Playwright to launch a browser, navigate to the login page (if `username`, `username_selector`, `password_selector`, and `login_url` are provided), logs in (if `username` is provided), and then navigates to each page of the search results and extracts the URLs for the detail pages using the `detail_url_selector`. The detail pages are the downloaded to the folder detail_pages.
 
+Password is requested by terminal input with the getpass library. (This doesn't work with IDEs such as VS Code and Pycharm, so run it from the terminal.)
+
 ## Example
 
 A simple (working, real world) example:
