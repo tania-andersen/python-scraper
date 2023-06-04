@@ -17,7 +17,7 @@ Specifies the number of the first page to scrape.
 
 Specifies the number of the last page to scrape.
 
-## Detail URL Selector
+## Detail URL Selector<a name="Detail%20URL%20Selector"></a> 
 
 Specifies the CSS selector to use to extract detail URLs from each page
 
